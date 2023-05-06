@@ -1,0 +1,32 @@
+body {background-color: gainsboro;}
+
+h1 {
+    border: 2px #eee solid;
+    color: brown;
+    text-align: center;
+    padding: 10px;
+}
+
+h2 {text-align: Center; color: red;}
+
+.dec{padding-top: 100px;}
+
+
+div {text-align: center;}
+
+.frm {text-align: center;padding-left: 20px;}
+.fcm {border: 1px solid grey; border-radius: 2px;}
+.submit {text-align: center;}
+ .pp {text-align: center;padding-top: 20px;}
+ .ctr {text-align: center;padding-top: 100px;}
+
+ ul {
+    display: inline-flex;
+    flex-wrap: wrap;
+    text-align: right;
+    padding-right: 150px;
+  }
+
+  li {
+    flex-basis: 50%;
+  }
