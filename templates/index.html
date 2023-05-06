@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css') }}">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <title>IMAGY</title>
+    <div>
+    <img src="../static/logo.jpg">
+</div>
+</head>
+<body>
+   <h1>Welcome to Imagy</h1>
+   <h2>Machine Learning API For Computer Vision Data Augmentation</h2>
+
+<form class='frm' action = "http://localhost:5000/results" method = "POST" enctype="multipart/form-data" >
+    <p>Please select the required data augmentation methods :</p>
+    <ul class="list-group list-group-flush", style="list-style: none;">
+        <li class="list-group-item">Flip
+            <input type="checkbox" value="Flip" class="danger" name='my_checkbox'>
+        </li>
+        <li class="list-group-item">Colors
+            <input type="checkbox" value="Colors" class="danger" name='my_checkbox'>
+        </li>
+        <li class="list-group-item">Brightness
+            <input type="checkbox" value="Brightness" class="danger" name='my_checkbox'>
+        </li>
+        <li class="list-group-item">GaussianNoise
+            <input type="checkbox" value="GaussianNoise" class="danger" name='my_checkbox'>
+        </li>   
+        <li class="list-group-item">Rotate        
+            <input type="checkbox" value="Rotate" class="danger" name='my_checkbox'>
+        </li>
+        <li class="list-group-item">Shift        
+            <input type="checkbox" value="Shift" class="danger" name='my_checkbox'>
+        </li>
+    </ul>
+
+    <p>Upload your dataset here  
+        <input  type = "file" name = "image"  /></p>
+        <p class="btn btn-primary"><input type = "submit" value = "submit" /></p>
+</form>
+</body>
+<div class="dec" >
+    <p>
+        This project was done in ENSAE Paris within the cloud Computing Course and under the supervsion of Mr. Antoine CHANCEL 
+        </p_>
+        <p>
+        @Author's team : Christophe MORAU, Omar ELGHAFFOULI, Clément TORRES, El Hassen ZEIN
+    </p>
+</div>
+</html>

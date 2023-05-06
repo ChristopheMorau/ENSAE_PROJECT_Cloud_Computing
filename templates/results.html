@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css') }}">
+    <title>RESULTS</title>
+    <div>
+        <img src="../static/logo.jpg">
+    </div>
+</head>
+<body>
+    <h1>Thank you for using Imagy</h1>
+   <h2>Download your dataset here</h2>
+    <form class="pp" action="http://localhost:5000/download" method="post">
+        <button  name="foo" value="{{user_image}}">Download</button>
+    </form>
+</body>
+<div class = "ctr">
+<a  href="https://gitlab.com/ensae-dev/projects_2022_2023/imagy.git"> @Contribuer A Notre Projet </a>
+</div>
+</html>
