@@ -1,3 +1,5 @@
+# ENSAE_PROJECT_Cloud_Computing
+
 Ce projet a été réalisé avec Clément TORRES, Omar ELGHAFFOULI et El Hassen ZEIN dans le cadre du cours de Cloud Computing en dernière année à l'ENSAE. Il fut noté 15/20.
 
 # Présentation d'Imagy
